@@ -1,0 +1,36 @@
+{
+  "crossover": {
+    "k": 2,
+    "uniform-skew": 0.5
+  },
+  "generation-size": 500,
+  "island-size": 500,
+  "image": {
+    "height": 16,
+    "width": 16
+  },
+  "mutation": {
+    "genotype-probability": 0.1,
+    "genotype-size-change": 2,
+    "chromosome-probability": 0.2,
+    "gene-probability": 0.1,
+    "resets": 1
+  },
+  "number-of-generations": 100,
+  "parent-pool-size": 125,
+  "path": {
+    "logs": "../log/",
+    "latin-dataset": "../data/latin/",
+    "hiragana-dataset": "../data/hiragana/"
+  },
+  "pixels-count-max": 50,
+  "pixels-per-chromosome": 5,
+  "selection": {
+    "tournament-size": 10,
+    "truncation-proportion": "1/3"
+  },
+  "cataclysm": {
+    "survivors": 0.05,
+    "uniques": 0.1
+  }
+}
